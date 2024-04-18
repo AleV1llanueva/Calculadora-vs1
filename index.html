@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="calculator">
+        <div id="screen"></div>
+        <div id="cont_button">
+            <button class="sign" onclick="calculate('M')">±</button>
+            <button class="sign" onclick="calculate('C')">C</button>
+            <button class="sign" onclick="calculate('D')">D</button>
+            <button class="sign" onclick="calculate('/')">/</button>
+            <button onclick="calculate(7)">7</button>
+            <button onclick="calculate(8)">8</button>
+            <button onclick="calculate(9)">9</button>
+            <button class="sign" onclick="calculate('*')">x</button>
+            <button onclick="calculate(4)">4</button>
+            <button onclick="calculate(5)">5</button>
+            <button onclick="calculate(6)">6</button>
+            <button class="sign" onclick="calculate('-')">-</button>
+            <button onclick="calculate(1)">1</button>
+            <button onclick="calculate(2)">2</button>
+            <button onclick="calculate(3)">3</button>
+            <button class="sign" onclick="calculate('+')">+</button>
+            <button onclick="calculate('00')">00</button>
+            <button onclick="calculate(0)">0</button>
+            <button onclick="calculate('.')">.</button>
+            <button id="equal" onclick="calculate('=')">=</button>
+        </div>
+        <script src="index.js"></script>
+    </div>
+</body>
+</html>
